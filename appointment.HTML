@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div class="profile-container">
+    <img src="./images/profileIcon.png" class="profile-pic" id="profileBtn">
+    <div class="dropdown" id="dropdownMenu">
+        <a href="index.html">Home</a>
+        <a href="appointment.HTML">Book Appointment</a>
+        <a href="biography.html">Biography</a>
+    </div>
+    </div>
+    <h1 class="info">Appointments</h1>
+    <br></br>
+    <h2 class="info">Book your braids in just a few clicks</h2>
+<br></br>
+    <br></br>
+    <form action="https://formspree.io/f/xvzzgjyo" method="POST">
+       <li><h3>What hairstyle do you want??</h3></li>
+       <label for="styles" class="payment">Choose a style</label>
+        <input type="search" id="styles" name="styles" list="myOptions" placeholder="search hairstyle" class="myHair" required>
+        <datalist id="myOptions">
+            <option value="Box braids"></option>
+            <option value="Knotless braids"></option>
+            <option value="Butterfly locs"></option>
+            <option value="kids braids"></option>
+            <option value="crochet braids"></option>
+            <option value="Senegalese twists"></option>
+            <option value="Goddess braids"></option>
+            <option value="Lemonade braids"></option>
+            <option value="Cornrows"></option>
+            <option value="Two strand twists"></option>
+            <option value="Faux locs"></option>
+            <option value="Feed in braids"></option>
+            <option value="Medium box braids"></option>
+            <option value="Small box braids"></option>
+            <option value="Large box braids"></option>
+            <option value="Medium knotless braids"></option>
+            <option value="Small knotless braids"></option>
+            <option value="Jumbo knotless braids"></option>
+            <option value="Retwist"></option>
+            <option value="Loc retwist"></option>
+            <option value="Fulani braids"></option>
+            <option value="Invisible locs"></option>
+            <option value="Soft locs"></option>
+            <option value="Passion twists"></option>
+            <option value="Tribal locs"></option>
+        </datalist>
+<br></br>
+  <label for="number" class="payment">your phone number</label>
+<input type="tel" id="number" name="phone"  required>
+  </label>
+<br></br>
+  <label for="clientName" class="payment">your name</label>
+<input type="text" id="clientName" name="client"  required>
+<br></br>
+<label for="appointmentDate" class="payment">Choose a date</label>
+<input type="date" id="appointmentDate" name="appointmentDate"  required>
+<br></br>
+<p class="paymentNotice">
+    payment is due in person at the time of service</p>
+<button type="submit" class="appointmentBtn">Book Appointment</button>
+</form>
+<br></br>
+<img class="Beauty" src="./images/Screenshot 2026-01-18 235326.png">
+<script src="profil.js"></script>
+<footer>
+    <p>© 2026 Audrey's Braids. All rights reserved.</p>
+    <p> developed by Luma Efange.<strong>Contact: lumaefange@gmail.com </strong> with any questions, or concerns with any issues.</p>
+</body>
+</html>
