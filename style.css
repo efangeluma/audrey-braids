@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+   background-size: cover ;
+}
+h1{
+    color: pink;
+}
+p{
+    color: black;
+}
+img {
+  width: 300px;
+  height: auto; /* keeps the image from stretching */
+}
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+a[href*="info.html"] {
+    color: pink;
+}
+a[href="biography.html"] {
+    color: pink;
+}
+a {
+    color: pink;
+}
+body {
+    background-image: url(images/Screenshot\ 2026-01-07\ 210711.png)  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+p {
+    text-align: justify;
+    padding-left: 1.5rem;
+    color: white;
+}
+h2 {
+    color: lightgray;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px 16px;
+    text-align: left;
+    color: aliceblue;
+    font-weight: bold;
+}
+th {
+    background-color:pink ;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.password:hover {
+    color: burlywood;
+}
+.submit:hover {
+    color: red;
+}
+.username:hover {
+    color: burlywood;
+}
+.age:hover {
+    color: burlywood;
+}
+.yes:hover {
+    color: burlywood;
+}
+.no:hover {
+    color: burlywood;
+}
+ .direction{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title{
+    color: #8d4f92;
+    background-image: url(images/Screenshot\ 2026-01-11\ 084019.png);
+    background-color: blanchedalmond;
+    font-size: 100px;
+    text-align: center;
+    font-weight: bolder;
+}
+.age {
+    color: antiquewhite;
+}
+.username {
+    color: antiquewhite;
+}
+.password {
+    color: antiquewhite;
+}
+ .body {
+    background-image: url(images/Screenshot\ 2026-01-07\ 210711.png);
+ }
+ .payment {
+    color: antiquewhite;
+    padding-left: 30px ;
+ }
+ li h2 {
+    color:lightpink;
+    font-size: 60px;
+ }
+ .info {
+    text-align: center;
+    font-size: 150px;
+    font-weight: bolder;
+ }
+ .confirmationMessage {
+    display: none;
+ }
+ .hair {
+    font-size: larger;
+ }
+ .accountmanagement {
+    padding: 10px;
+    color: rosybrown;
+ }
+ .Intel {
+    color: lightpink;
+    font-size: large;
+    font-weight: bolder;
+padding: 10px;
+}
+    .profile-container {
+        position: relative;
+        width: fit-content;
+        margin: 40px;
+    }
+    .profile-pic {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .dropdown {
+        display: none;
+        position: relative;
+        top: 50px;
+        right: 0;
+        background-color: white;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        width: 150px;
+    }
+    .dropdown a {
+        display: block;
+        padding: 10px;
+        color: black;
+        text-decoration: none;
+    }
+    .dropdown a:hover {
+        background-color: #f0f0f0;
+    }
+    .logout {
+        color:aquamarine;
+        font-size: large;
+        font-weight: bolder;
+    }
+     li h3 {
+        color: lightpink;
+    }
+    .Beauty {
+        text-align: right;
+        width: 600px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
